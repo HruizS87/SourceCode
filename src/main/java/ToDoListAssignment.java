@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ToDoListAssignment {
-    static class DailyToDoList {
+     static class DailyToDoList {
 
         ArrayList<String> ToDoList = new ArrayList<String>();
 
@@ -22,7 +22,7 @@ public class ToDoListAssignment {
         }
     }
 
-    public static void main(String[] args){
+    public void main(String[] args){
 
         DailyToDoList ToDoList = new DailyToDoList();
         int indicator = 0;
